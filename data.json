@@ -1,0 +1,18 @@
+{
+    "results": [
+      {
+        "id": "1a3f4c",
+        "name": "John",
+        "last_name": "Lennon",
+        "address": "123 Main Street, Anytown, USA",
+        "country": "USA",
+        "phone_number": "123-456-7890",
+        "avatar": "https://www.gannett-cdn.com/media/USATODAY/None/2014/10/09/635484412619522719-D06-John-Lennon-older-07.jpg?width=390&format=pjpg&auto=webp&quality=70",
+        "date_of_birth": "1964/01/01",
+        "driver_license": "A123456789",
+        "social_media": "john_doe"
+      }
+      
+    ]
+  }
+  
