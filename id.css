@@ -405,3 +405,31 @@ and (max-device-width: 1024px) {
         /* Update the size and position of images to fit well on large desktop and monitor size */
     }
 }
+/* ... Your existing CSS ... */
+@media (max-width: 600px) and (max-height: 390px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+
+    /* Rotate the container and adjust its size */
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+        transform-origin: center;
+        width: 100vh;
+        height: 100vw;
+        overflow: hidden;
+    }
+
+    /* Adjust the position and size of elements within the rotated container */
+    .creditcard {
+        transform: rotate(-90deg);
+        transform-origin: center;
+    }
+
+    /* Optionally, you may need to further adjust the position and size of other elements */
+}
