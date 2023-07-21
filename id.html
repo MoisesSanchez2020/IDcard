@@ -67,8 +67,14 @@
                            <!-- Add an image here to represent the picture space on the card. -->
                             <image id="picture" xlink:href="https://www.gannett-cdn.com/media/USATODAY/None/2014/10/09/635484412619522719-D06-John-Lennon-older-07.jpg?width=390&format=pjpg&auto=webp&quality=70" x="50" y="200" width="180" height="200"/>
                             <!-- Add an image here to represent the QR code space on the card. -->
-                            <image id="qrcode" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/QR_Code_Model_1_Example.svg/1200px-QR_Code_Model_1_Example.svg.png" x="520" y="200" width="180" height="200"/>
+                            <!--<image id="qrcode" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/QR_Code_Model_1_Example.svg/1200px-QR_Code_Model_1_Example.svg.png" x="520" y="200" width="180" height="200"/>-->
                         </g>
+
+
+                        <g id="qrcode">
+                            <image xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/QR_Code_Model_1_Example.svg/1200px-QR_Code_Model_1_Example.svg.png" x="520" y="200" width="180" height="200"/>
+                        </g>
+                        
                         <g id="Back">
                             <!-- This is the back side of the card. You can manipulate it similarly if you want. -->
                         </g>
@@ -82,6 +88,7 @@
     
     
 
+        <script src="https://unpkg.com/@zxing/library@latest"></script>
 
         <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
         <script src="injectData.js"></script>
