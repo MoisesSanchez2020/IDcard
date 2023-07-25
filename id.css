@@ -1,3 +1,5 @@
+/* Updated CSS file */
+
 body {
     margin: 0;
     padding: 0;
@@ -40,10 +42,10 @@ body {
 
 /* Position and size for the QR code image on the card */
 .creditcard #qrcode {
-    x: 520px;
-    y: 40px;  /* Updated position for the QR code to move up */
-    width: 200px;
-    height: 200px;
+    x: 400px;
+    y: 50px;  /* Updated position for the QR code to move up */
+    width: 50px;
+    height: 250px;
     fill: white;  /* Add white background */
 }
 
@@ -146,7 +148,7 @@ input {
     border-radius: 31px;
 }
 
-#generatecard{
+#generatecard {
     cursor: pointer;
     float: right;
     font-size: 12px;
@@ -155,7 +157,7 @@ input {
     background-color: hsl(0, 0%, 100%);
     border-radius: 4px;
     cursor: pointer;
-    float:right;
+    float: right;
 }
 
 /* CHANGEABLE CARD ELEMENTS */
@@ -341,71 +343,6 @@ input {
 #cardback .st12 {
 }
 
-@media (max-width: 600px) {
-    .container {
-      width: 100%;
-      padding: 0;
-    }
-  
-    /* More CSS rules to adjust styles for screen width up to 600px */
-  }
-  
-
-
-
- 
-/* iPads (portrait and landscape) */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) {
-    .form-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-            "name"
-            "number"
-            "expiration"
-            "security";
-    }
-
-    .creditcard #picture,
-    .creditcard #qrcode {
-        /* Update the size and position of images to fit well on iPad size */
-    }
-}
-
-/* Small desktops and laptops */
-@media only screen and (min-width: 1025px) {
-    .form-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        grid-template-areas: 
-            "name number"
-            "expiration security";
-    }
-
-    .creditcard #picture,
-    .creditcard #qrcode {
-        /* Update the size and position of images to fit well on small desktop and laptop size */
-    }
-}
-
-/* Large desktops and monitors */
-@media only screen and (min-width: 1200px) {
-    .form-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        grid-template-areas: 
-            "name number"
-            "expiration security";
-    }
-
-    .creditcard #picture,
-    .creditcard #qrcode {
-        /* Update the size and position of images to fit well on large desktop and monitor size */
-    }
-}
-/* ... Your existing CSS ... */
 @media (max-width: 600px) and (max-height: 390px) {
     html, body {
         height: 100%;
