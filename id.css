@@ -34,19 +34,21 @@ body {
 
 /* Position and size for the picture image on the card */
 .creditcard #picture {
-    x: 50px;
-    y: 50px;  /* Updated position for the picture to move up */
+    position: absolute;
+    top: 50px;
+    left: 50px; /* Updated position for the picture to move up */
     width: 170px;
     height: 170px;
 }
 
 /* Position and size for the QR code image on the card */
 .creditcard #qrcode {
-    x: 400px;
-    y: 50px;  /* Updated position for the QR code to move up */
+    position: absolute;
+    top: 50px;
+    right: 50px; /* Updated position for the QR code to move up */
     width: 50px;
     height: 250px;
-    fill: white;  /* Add white background */
+    fill: white; /* Add white background */
 }
 
 /* Styling for payment title */
