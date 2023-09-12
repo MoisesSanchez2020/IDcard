@@ -1,16 +1,18 @@
 {
-  "results": [
-    {
-      "id": "1a3f4c",
-      "name": "Paul ",
-      "last_name": "Mccartney",
-      "address": "505 Main Street, Anytown, USA",
-      "country": "USA",
-      "phone_number": "433-456-7890",
-      "avatar": "https://i.guim.co.uk/img/media/4b199a9635f736d51ebbae91beb76b1bf3c8056e/566_811_4698_2818/master/4698.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d4a6928510530e628bd5d27296a528ba",
-      "date_of_birth": "1934/05/01",
-      "driver_license": "A123456789",
-      "social_media": "john_doe"
-    }
-  ]
-}
+    "results": [
+      {
+        "id": "1a3f4c",
+        "name": "John",
+        "last_name": "Lennon",
+        "address": "123 Main Street, Anytown, USA",
+        "country": "USA",
+        "phone_number": "123-456-7890",
+        "avatar": "https://www.gannett-cdn.com/media/USATODAY/None/2014/10/09/635484412619522719-D06-John-Lennon-older-07.jpg?width=390&format=pjpg&auto=webp&quality=70",
+        "date_of_birth": "1964/01/01",
+        "driver_license": "A123456789",
+        "social_media": "john_doe"
+      }
+      
+    ]
+  }
+  
